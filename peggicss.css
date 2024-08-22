@@ -1,0 +1,193 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    -webkit-appearance: none;
+  }
+
+.header {
+    background-color: rgba(0, 119, 101, 1); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+}
+.menu {
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-position: 200px;
+    background-position-y: center;
+    padding: 30px;
+    color: aliceblue;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style-type: none;
+    padding-right: 200px;
+}
+
+a:link {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:visited {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.pied {
+    background-image: url(just.svg);
+    background-repeat: no-repeat;
+    padding-left: 10px;
+}
+
+.container {
+    background-image: url(cosmos.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.pipernet {
+    display: flex;
+    justify-content: center;
+    font-size: 72px;
+    padding-top: 140px;
+    color: aliceblue;
+}
+.theproblem {
+    background-color: rgba(238, 238, 238, 1);
+    color: rgba(0, 0, 0, 1);
+    font-size: 32px;
+    padding: 0px 250px 64px 250px;
+    text-align: left;
+}
+
+h2 {
+    color: rgba(0, 119, 101, 1);
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 82px;
+}
+.flashy {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.star {
+    background-image: url(stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.together {
+    color: aliceblue;
+    font-size: 48px;
+    height: 115%;
+    padding: 64px 400px 64px 225px;
+    text-align: center;
+}
+.img {
+    background-image: url(PPC_Logo.svg); 
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 25px 50px 20px 160px;
+}
+
+.team {
+    background-color: rgba(238, 238, 238, 1);
+    
+}
+
+.myteam {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px 0px;
+    width: 100%;
+    max-width: 1116px;  
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    padding-bottom: 60px;
+}
+
+.richard {
+    background-image: url(richard.svg); 
+    background-repeat: no-repeat;
+    padding: 185px 15px 20px 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.dinesh {
+    background-image: url(dinesh.svg); 
+    background-repeat: no-repeat;
+    padding: 185px 15px 20px 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.bertram {
+    background-image: url(bertram.svg); 
+    background-repeat: no-repeat;
+    padding: 185px 15px 20px 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.jared {
+    background-image: url(jared.svg);
+    background-repeat: no-repeat;
+    padding: 185px 15px 20px 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.monica {
+    background-image: url(monica.svg); 
+    background-repeat: no-repeat;
+    padding: 185px 15px 20px 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.nelson {
+    background-image: url(nelson.svg); 
+    background-repeat: no-repeat;
+    padding: 185px 15px 20px 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 119, 101, 1);
+}
+
+.footer {
+    background-color: rgba(51, 51, 51, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 170px;
+    padding-top: 85px;
+}
